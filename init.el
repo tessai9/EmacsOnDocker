@@ -20,14 +20,18 @@
 (use-package go-mode)
 (use-package company)
 (use-package company-go)
+(use-package company-php)
 (use-package cargo)
 (use-package rust-mode)
 (use-package dockerfile-mode)
 (use-package magit)
 (use-package docker-compose-mode)
 (use-package markdown-mode)
+(use-package dotenv-mode)
+(use-package editorconfig)
 
 (global-company-mode)
+(editorconfig-mode 1)
 
 (add-hook 'go-mode-hook
           (lambda ()
