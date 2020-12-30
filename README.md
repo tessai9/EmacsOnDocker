@@ -7,7 +7,7 @@ Docker image for using Emacs on a container.
 1. edit `init.el`. (default is for my developing environment)
 1. build image
    ```bash
-   $ docker build --rm -t tesao/development
+   $ docker build --rm -t tesao/development .
    ```
 1. run image
    ```
